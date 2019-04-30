@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selected">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Seleceted"
+        android:textSize="30sp"
+        android:id="@+id/selectedtv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello Link"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/linktv2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:text="Hello Link"
+        android:id="@+id/linktv3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:text="Hello Link"
+        android:layout_marginTop="150dp"
+        android:id="@+id/linktv4"/>
+
+</FrameLayout>
